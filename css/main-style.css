@@ -1,0 +1,59 @@
+/* 
+    Created on : 07.12.2016, 13:09:42
+    Author     : Michel
+*/
+body {
+    background-image: url(../img/scribble_light.png);
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+}
+
+#main-background {
+    background-image: url(../img/index-title2.JPG);
+    background-size: cover;
+    background-position: center center;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+#erfolge-background {
+    background-image: url(../img/show-title.JPG);
+    background-size: cover;
+}
+
+.padding-sm{
+	height: 0px;
+}
+.padding-lg{
+	height: 50px;
+}
+
+.row-centered {
+    text-align:center;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+    display:inline-block;
+    text-align:left;
+    margin-right:-4px;
+}
+
+.img-text{
+	color: rgb(204, 255, 204) !important;
+}
+
+.my-table{
+    width: 100%;
+    border: 1px solid #595959;
+    border-collapse: collapse;
+}
+table.my-table td, table.my-table th {
+    border: 1px solid #595959;
+    border-collapse: collapse;
+    padding: 3px;
+    width: 60px;
+    height: 40px;
+}
+table.my-table th {
+    background: #f0e6cc;
+}
